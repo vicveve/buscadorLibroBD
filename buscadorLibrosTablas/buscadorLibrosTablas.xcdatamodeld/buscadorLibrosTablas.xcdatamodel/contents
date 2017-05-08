@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="16D32" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Autores" representedClassName="Autores" syncable="YES" codeGenerationType="class">
+        <attribute name="nombreAutor" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="autorlibro" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Libro" inverseName="libroAutor" inverseEntity="Libro" syncable="YES"/>
+    </entity>
+    <entity name="Libro" representedClassName="Libro" syncable="YES" codeGenerationType="class">
+        <attribute name="sbn" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="libroAutor" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Autores" inverseName="autorlibro" inverseEntity="Autores" syncable="YES"/>
+        <relationship name="libroPortada" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Portadas" inverseName="portadaLibro" inverseEntity="Portadas" syncable="YES"/>
+        <relationship name="libroTitulo" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Titulo" inverseName="tituloSBN" inverseEntity="Titulo" syncable="YES"/>
+    </entity>
+    <entity name="Portadas" representedClassName="Portadas" syncable="YES" codeGenerationType="class">
+        <attribute name="portada" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="portadaLibro" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Libro" inverseName="libroPortada" inverseEntity="Libro" syncable="YES"/>
+    </entity>
+    <entity name="Titulo" representedClassName="Titulo" syncable="YES" codeGenerationType="class">
+        <attribute name="titulo" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="tituloSBN" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Libro" inverseName="libroTitulo" inverseEntity="Libro" syncable="YES"/>
+    </entity>
+    <fetchRequest name="pcLibro" entity="Libro" predicateString="sbn == $sbn"/>
+    <fetchRequest name="pcLibrosList" entity="Libro"/>
+    <elements>
+        <element name="Libro" positionX="-63" positionY="-18" width="128" height="105"/>
+        <element name="Autores" positionX="-54" positionY="0" width="128" height="75"/>
+        <element name="Portadas" positionX="-36" positionY="18" width="128" height="75"/>
+        <element name="Titulo" positionX="-27" positionY="54" width="128" height="75"/>
+    </elements>
+</model>
