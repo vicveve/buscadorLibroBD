@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "buscadorLibrosTablas/busquedaViewController.swift"
-            timestampString = "515807717.1732"
+            timestampString = "516078734.194032"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
             landmarkName = "busquedaViewController"
             landmarkType = "3">
          </BreakpointContent>
@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "buscadorLibrosTablas/DetalleViewController.swift"
-            timestampString = "514768891.209198"
+            timestampString = "516077944.357156"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
             landmarkName = "MuestraInformacion(item:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -58,11 +58,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "buscadorLibrosTablas/clienteRest.swift"
-            timestampString = "514773735.943617"
+            timestampString = "516077944.357156"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "197"
-            endingLineNumber = "197"
+            startingLineNumber = "207"
+            endingLineNumber = "207"
             landmarkName = "LibrosSesion"
             landmarkType = "3">
             <Locations>
@@ -74,11 +74,11 @@
                   moduleName = "buscadorLibrosTablas"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/victor/Documents/workSapaceIOS/Coursera/Curso%203/buscadorLibroBD/buscadorLibrosTablas/clienteRest.swift"
-                  timestampString = "515970429.73813"
+                  timestampString = "516079639.487917"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "197"
-                  endingLineNumber = "197"
+                  startingLineNumber = "207"
+                  endingLineNumber = "207"
                   offsetFromSymbolStart = "19">
                </Location>
                <Location
@@ -89,11 +89,11 @@
                   moduleName = "buscadorLibrosTablas"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/victor/Documents/workSapaceIOS/Coursera/Curso%203/buscadorLibroBD/buscadorLibrosTablas/clienteRest.swift"
-                  timestampString = "515970429.743991"
+                  timestampString = "516079639.491113"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "197"
-                  endingLineNumber = "197"
+                  startingLineNumber = "207"
+                  endingLineNumber = "207"
                   offsetFromSymbolStart = "35">
                </Location>
                <Location
@@ -104,11 +104,11 @@
                   moduleName = "buscadorLibrosTablas"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/victor/Documents/workSapaceIOS/Coursera/Curso%203/buscadorLibroBD/buscadorLibrosTablas/clienteRest.swift"
-                  timestampString = "515970429.747661"
+                  timestampString = "516079639.494609"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "197"
-                  endingLineNumber = "197"
+                  startingLineNumber = "207"
+                  endingLineNumber = "207"
                   offsetFromSymbolStart = "65">
                </Location>
             </Locations>
@@ -121,11 +121,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "buscadorLibrosTablas/busquedaViewController.swift"
-            timestampString = "515969952.996406"
+            timestampString = "516079320.968876"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "195"
-            endingLineNumber = "195"
+            startingLineNumber = "219"
+            endingLineNumber = "219"
             landmarkName = "busquedaViewController"
             landmarkType = "3">
          </BreakpointContent>
@@ -137,11 +137,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "buscadorLibrosTablas/busquedaViewController.swift"
-            timestampString = "515969952.996406"
+            timestampString = "516079320.968876"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "125"
-            endingLineNumber = "125"
+            startingLineNumber = "149"
+            endingLineNumber = "149"
             landmarkName = "BuscarNuevoLibro(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -153,11 +153,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "buscadorLibrosTablas/clienteRest.swift"
-            timestampString = "514777043.922382"
+            timestampString = "516079638.378065"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "71"
-            endingLineNumber = "71"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
             landmarkName = "buscarLibroFormateado(codigo:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -217,11 +217,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "buscadorLibrosTablas/busquedaViewController.swift"
-            timestampString = "515969952.996406"
+            timestampString = "516079320.968876"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "115"
-            endingLineNumber = "115"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
             landmarkName = "BuscarNuevoLibro(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -233,11 +233,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "buscadorLibrosTablas/busquedaViewController.swift"
-            timestampString = "515969952.996406"
+            timestampString = "516079320.968876"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "144"
-            endingLineNumber = "144"
+            startingLineNumber = "168"
+            endingLineNumber = "168"
             landmarkName = "busquedaViewController"
             landmarkType = "3">
          </BreakpointContent>
@@ -377,11 +377,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "buscadorLibrosTablas/busquedaViewController.swift"
-            timestampString = "515960150.636263"
+            timestampString = "516078734.194032"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
             landmarkName = "busquedaViewController"
             landmarkType = "3">
          </BreakpointContent>
@@ -409,11 +409,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "buscadorLibrosTablas/busquedaViewController.swift"
-            timestampString = "515969952.996406"
+            timestampString = "516079320.968876"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "219"
-            endingLineNumber = "219"
+            startingLineNumber = "243"
+            endingLineNumber = "243"
             landmarkName = "creaAutoresEntidad(autoreslist:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -425,11 +425,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "buscadorLibrosTablas/busquedaViewController.swift"
-            timestampString = "515969952.996406"
+            timestampString = "516079320.968876"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "210"
-            endingLineNumber = "210"
+            startingLineNumber = "234"
+            endingLineNumber = "234"
             landmarkName = "creaTituloEntidad(tituloLibro:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -441,11 +441,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "buscadorLibrosTablas/busquedaViewController.swift"
-            timestampString = "515969952.996406"
+            timestampString = "516079320.968876"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "220"
-            endingLineNumber = "220"
+            startingLineNumber = "244"
+            endingLineNumber = "244"
             landmarkName = "creaAutoresEntidad(autoreslist:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -457,12 +457,28 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "buscadorLibrosTablas/busquedaViewController.swift"
-            timestampString = "515969952.996406"
+            timestampString = "516079320.968876"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "235"
-            endingLineNumber = "235"
+            startingLineNumber = "259"
+            endingLineNumber = "259"
             landmarkName = "creaportadaEntidad(portadalist:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "buscadorLibrosTablas/busquedaViewController.swift"
+            timestampString = "516078917.212225"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "Buscar(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

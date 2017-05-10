@@ -67,7 +67,7 @@ class RestCliente {
         }
         
         response.Succes = true
-        
+        response.Isbn = codigo
         return response
     }
     
@@ -142,6 +142,7 @@ class LibroClass{
     var Succes : Bool = false
     var ErrorMessage : String
     var portadaList : [String] = []
+    var Isbn : String
     
     init() {
         Autores = ""
@@ -149,6 +150,11 @@ class LibroClass{
         Titulo = ""
         Succes = false
         ErrorMessage = ""
+        Isbn = ""
+    }
+    
+    func AgregaIsbn(isbn : String) {
+        self.Isbn = isbn
     }
     
     func AgregaTitulo(titulo : String) {
@@ -171,6 +177,10 @@ class LibroClass{
         return Titulo
     }
     
+    func RecuperaIsbn() -> String {
+        return Isbn
+    }
+
     
     func RecuperaAutores() -> String {
         

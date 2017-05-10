@@ -16,6 +16,7 @@ class DetalleViewController: UIViewController {
     
     @IBOutlet weak var txtautores: UITextView!
     
+    @IBOutlet weak var lblISBN: UILabel!
     @IBOutlet weak var imgPortada: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,7 +30,7 @@ class DetalleViewController: UIViewController {
     }
     
     func MuestraInformacion(item : LibroClass){
-        
+        lblISBN.text = item.RecuperaIsbn()
         lblTitulo.text = item.RecuperaTitulo()
         txtautores.text = item.RecuperaAutores()
         if(item.portadaList.count > 0){

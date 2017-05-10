@@ -16,6 +16,13 @@ class busquedaViewController: UIViewController {
 
     
     @IBOutlet weak var txtISBN: UITextField!
+    @IBOutlet weak var lblTitulo: UILabel!
+    @IBOutlet weak var lblAutores: UITextView!
+    @IBOutlet weak var lblPortada: UILabel!
+    
+    @IBOutlet weak var portada: UIImageView!
+    
+    @IBOutlet weak var lblIsbn: UILabel!
     
     var Libros : Array<LibroClass> = Array<LibroClass>()
     var LibroItem : LibroClass = LibroClass()
@@ -101,6 +108,23 @@ class busquedaViewController: UIViewController {
             
             txtISBN.text = ""
             alerta(mensaje: "Se agrego el libro correctamente", titulo: "Alerta")
+            
+            lblIsbn.text = codigo
+            lblTitulo.text = LibroItem.RecuperaTitulo()
+            lblPortada.text = LibroItem.RecuperaPortada()
+            lblAutores.text = LibroItem.RecuperaAutores()
+            if(LibroItem.portadaList.count > 0){
+                portada.isHidden = false
+                let urlImageDown = NSURL(string: LibroItem.portadaList[0] )
+                downloadImage(url: urlImageDown as! URL)
+                
+                lblPortada.isHidden = true
+            }
+            else{
+                lblPortada.isHidden = false
+                portada.isHidden = true
+            }
+
             
         }
         else{
@@ -246,6 +270,25 @@ class busquedaViewController: UIViewController {
         
 
         
+    }
+    
+    func downloadImage(url: URL) {
+        print("Download Started")
+        getDataFromUrl(url: url) { (data, response, error)  in
+            guard let data = data, error == nil else { return }
+            print(response?.suggestedFilename ?? url.lastPathComponent)
+            print("Download Finished")
+            DispatchQueue.main.async() { () -> Void in
+                self.portada.image = UIImage(data: data)
+            }
+        }
+    }
+    
+    func getDataFromUrl(url: URL, completion: @escaping (_ data: Data?, _  response: URLResponse?, _ error: Error?) -> Void) {
+        URLSession.shared.dataTask(with: url) {
+            (data, response, error) in
+            completion(data, response, error)
+            }.resume()
     }
 
 

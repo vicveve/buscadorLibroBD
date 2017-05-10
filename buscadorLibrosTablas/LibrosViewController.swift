@@ -76,7 +76,7 @@ class LibrosViewController: UITableViewController {
                         PortadasLista.append(url)
                     }
                     LibroBD.portadaList = PortadasLista
-
+                    LibroBD.AgregaIsbn(isbn: ISBN)
                     Libros.append(LibroBD)
                  }
                 
