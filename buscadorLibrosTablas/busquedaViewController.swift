@@ -22,6 +22,7 @@ class busquedaViewController: UIViewController {
     
     @IBOutlet weak var portada: UIImageView!
     
+    @IBOutlet weak var lblcodigo: UILabel!
     @IBOutlet weak var lblIsbn: UILabel!
     
     var Libros : Array<LibroClass> = Array<LibroClass>()
@@ -53,7 +54,7 @@ class busquedaViewController: UIViewController {
     
     @IBAction func Buscar(_ sender: Any) {
         
-        var codigo = txtISBN.text
+        let codigo = txtISBN.text
         if(codigo?.characters.count == 0){
             alerta(mensaje: "El SBN no puede estar vacio", titulo: "Alerta")
             return
@@ -110,6 +111,7 @@ class busquedaViewController: UIViewController {
             alerta(mensaje: "Se agrego el libro correctamente", titulo: "Alerta")
             
             lblIsbn.text = codigo
+            lblcodigo.text = codigo
             lblTitulo.text = LibroItem.RecuperaTitulo()
             lblPortada.text = LibroItem.RecuperaPortada()
             lblAutores.text = LibroItem.RecuperaAutores()

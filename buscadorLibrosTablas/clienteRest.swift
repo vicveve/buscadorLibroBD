@@ -183,7 +183,7 @@ class LibroClass{
 
     
     func RecuperaAutores() -> String {
-        
+        Autores = ""
         for ing in autoresList{
             Autores.append("-\(ing)\n")
         }
@@ -192,7 +192,7 @@ class LibroClass{
     }
     
     func RecuperaPortada() -> String {
-        
+        Portada = ""
         for ing in portadaList{
             Portada.append("-\(ing)\n")
         }

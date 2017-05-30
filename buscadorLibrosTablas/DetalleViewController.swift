@@ -30,6 +30,7 @@ class DetalleViewController: UIViewController {
     }
     
     func MuestraInformacion(item : LibroClass){
+        txtautores.text = ""
         lblISBN.text = item.RecuperaIsbn()
         lblTitulo.text = item.RecuperaTitulo()
         txtautores.text = item.RecuperaAutores()
