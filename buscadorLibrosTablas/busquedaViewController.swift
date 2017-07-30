@@ -68,7 +68,13 @@ class busquedaViewController: UIViewController {
             let libroconsulta = try self.contexto?.fetch(peticion!) as! [NSObject]
             
             if (libroconsulta.count > 0){
-                alerta(mensaje: "El libro ya se agrego con anterioridad", titulo: "Información")
+                if(LibroItem.ErrorMessage != ""){
+                     alerta(mensaje: LibroItem.ErrorMessage, titulo: "Información")
+                }
+                else{
+                    alerta(mensaje: "El libro ya se agrego con anterioridad", titulo: "Información")
+                }
+                
                 return
             }
         }catch{

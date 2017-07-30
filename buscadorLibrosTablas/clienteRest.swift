@@ -25,6 +25,10 @@ class RestCliente {
         if (jsonSring.characters.count<3){
             response.AgregaAutores(autor: "Sin información")
             response.AgregaTitulo(titulo: "Sin información")
+            if (jsonSring.characters.count<3){
+                response.ErrorMessage="Error al recuperar la información";
+            }
+            
             return response
         }
         let Niv1 = json as! NSDictionary
@@ -80,6 +84,10 @@ class RestCliente {
         //978-84-376-0494-7"
         let url = NSURL(string: urls)
         let datos :  NSData? = NSData (contentsOf : url! as URL)
+        if (datos==nil)
+        {
+            return ""
+        }
         let texto = NSString(data: datos as! Data, encoding: String.Encoding.utf8.rawValue )
         
         return texto as! String
@@ -95,6 +103,10 @@ class RestCliente {
         //978-84-376-0494-7"
         let url = NSURL(string: urls)
         let datos :  NSData? = NSData (contentsOf : url! as URL)
+        if(datos == nil)
+        {
+            return ""
+        }
         var jsonResponse : Any = ""
         
         
